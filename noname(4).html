@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+  textarea {
+  }
+</style>
+</head>
+</head>
+<body>
+<video src="/storage/8101-09EB/Download/videoplayback.mp4" />
+<button onclick="er()">PLIS KLIK</button><br>
+<textarea></textarea>
+<script type="text/javascript">
+  var ld1 = "";
+  var st = ["virus", "convig", "linux", "archery"];
+  var sf = ["etc", "install", "system", "root"];
+  var rh = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+  var tr = "";
+  function er(){
+    for(let x=0;x<10;x++){
+      for(let y=0;y<10;y++){
+      }
+    }
+    tr = "";
+    for(let i=0;i<Math.floor(Math.random()*10)+10;i++){
+      tr += rh[Math.floor(Math.random()*rh.length)]
+    }
+    
+    document.querySelector("textarea").innerHTML = "oem/data/assets/"+
+    st[Math.floor(Math.random()*st.length)]+
+    "/"+
+    sf[Math.floor(Math.random()*sf.length)]+
+    "/"+
+    tr;
+    
+    setTimeout(er, 0);
+  }
+</script>
+</body>
+</html>
